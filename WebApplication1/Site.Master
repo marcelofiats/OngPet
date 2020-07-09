@@ -1,0 +1,67 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WebApplication1.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+
+<head runat="server">
+    <title>Ong SOS</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Css/StyleSheet.css" rel="stylesheet" />
+    <!-- CARREGA O ARQUINO CSS DO SLIDER -->
+    <link href="js/flexslider.css" rel="stylesheet" />
+    <!-- CARREGA O JAVASCRIPT DO FLEXSLIDER -->
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script src="js/flexslider.min.js"></script>
+</head>
+
+<body class="color">
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+
+        <div class="content-wrapper">
+            <div class="color">
+            <!-- CABEÇALHO -->
+            <div class="cabecalho">
+                <!-- LOGOMARCA -->
+                <div class="logomarca">
+                    <a href="Default.aspx"><asp:Image ID="LogoMarca" src="Images/logo.jpeg" Width="100px" runat="server"/></a>
+                </div>
+                <div style="position: absolute; left: 100px; bottom: 20px;">
+                    <asp:Label ID="NomeCompleto" runat="server"></asp:Label>
+                </div>
+                <!--MEN U -->
+                <div class="menu">
+                    <asp:HyperLink ID="HyperLink4" NavigateUrl="~/Cachorro.aspx" runat="server">ANIMAIS</asp:HyperLink>
+                    <asp:HyperLink ID="HyperLink6" NavigateUrl="~/Voluntario.aspx" runat="server">VOLUNTARIO</asp:HyperLink>
+                    <asp:HyperLink ID="HyperLink2" NavigateUrl="~/Sobre.aspx" runat="server">SOBRE NÓS</asp:HyperLink>
+                    <asp:HyperLink ID="HyperLink3" NavigateUrl="~/Contato.aspx" runat="server">FALE CONOSCO</asp:HyperLink>
+                    <asp:HyperLink ID="ViewExceptions" Visible="false" NavigateUrl="~/Admin/ViewExceptions.aspx" runat="server">VER EXCEÇÕES</asp:HyperLink>
+                    <asp:HyperLink ID="InserirUsuarios" Visible="false" NavigateUrl="~/Admin/InserirUsuarios.aspx" runat="server"> USUÁRIOS</asp:HyperLink>
+                    <asp:HyperLink ID="Sair" Visible="false" NavigateUrl="~/Logout.aspx" runat="server">SAIR</asp:HyperLink>
+                    <asp:HyperLink ID="Entrar" NavigateUrl="~/Login.aspx" runat="server">ENTRAR</asp:HyperLink>
+
+                </div>
+            </div>
+       
+        <!--FORMS DE CONTEÚDO SÃO EXIBIDOS AQUI -->
+        <div class="conteudo margin-top10">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        </div>
+
+        </div>
+        <!-- RODAPÉ -->
+        <div class="rodape">
+            <div class="content-wrapper">
+                OngSOS - Organização de proteção a animais de rua 
+												<br />
+                2020 
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
