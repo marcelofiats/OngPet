@@ -16,6 +16,7 @@ namespace WebApplication1
                 NomeCompleto.Text = Session["NomeCompleto"].ToString();
 
                 ViewExceptions.Visible = true;
+                VerPedidos.Visible = true;
                 InserirUsuarios.Visible = true;
                 Entrar.Visible = false;
                 Sair.Visible = true;
@@ -23,6 +24,7 @@ namespace WebApplication1
             else
             {
                 ViewExceptions.Visible = false;
+                VerPedidos.Visible = false;
                 InserirUsuarios.Visible = false;
                 Entrar.Visible = true;
                 Sair.Visible = false;

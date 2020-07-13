@@ -26,9 +26,9 @@
             <div class="cabecalho">
                 <!-- LOGOMARCA -->
                 <div class="logomarca">
-                    <a href="Default.aspx"><asp:Image ID="LogoMarca" src="Images/logo.jpeg" Width="100px" runat="server"/></a>
+                    <asp:HyperLink ID="HyperLink1" NavigateUrl="~/Default.aspx" runat="server"><asp:Image ID="LogoMarca" ImageUrl="~/Images/logo.jpeg" Width="100px" runat="server"/></asp:HyperLink>
                 </div>
-                <div style="position: absolute; left: 100px; bottom: 20px;">
+                <div style="position: absolute; left: 160px; bottom: 20px;">
                     <asp:Label ID="NomeCompleto" runat="server"></asp:Label>
                 </div>
                 <!--MEN U -->
@@ -37,7 +37,8 @@
                     <asp:HyperLink ID="HyperLink6" NavigateUrl="~/Voluntario.aspx" runat="server">VOLUNTARIO</asp:HyperLink>
                     <asp:HyperLink ID="HyperLink2" NavigateUrl="~/Sobre.aspx" runat="server">SOBRE NÓS</asp:HyperLink>
                     <asp:HyperLink ID="HyperLink3" NavigateUrl="~/Contato.aspx" runat="server">FALE CONOSCO</asp:HyperLink>
-                    <asp:HyperLink ID="ViewExceptions" Visible="false" NavigateUrl="~/Admin/ViewExceptions.aspx" runat="server">VER EXCEÇÕES</asp:HyperLink>
+                    <asp:HyperLink ID="ViewExceptions" Visible="false" NavigateUrl="~/Admin/ViewExceptions.aspx" runat="server">EXCEÇÕES</asp:HyperLink>
+                    <asp:HyperLink ID="VerPedidos" Visible="false" NavigateUrl="~/Admin/VerPedidos.aspx" runat="server">PEDIDOS</asp:HyperLink>
                     <asp:HyperLink ID="InserirUsuarios" Visible="false" NavigateUrl="~/Admin/InserirUsuarios.aspx" runat="server"> USUÁRIOS</asp:HyperLink>
                     <asp:HyperLink ID="Sair" Visible="false" NavigateUrl="~/Logout.aspx" runat="server">SAIR</asp:HyperLink>
                     <asp:HyperLink ID="Entrar" NavigateUrl="~/Login.aspx" runat="server">ENTRAR</asp:HyperLink>

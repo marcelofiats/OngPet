@@ -81,6 +81,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Admin\InserirUsuarios.aspx" />
+    <Content Include="Admin\VerPedidos.aspx" />
     <Content Include="Admin\ViewExceptions.aspx" />
     <Content Include="App_Data\ADSDB.accdb" />
     <Content Include="Cachorro.aspx" />
@@ -153,6 +154,13 @@
     </Compile>
     <Compile Include="Admin\InserirUsuarios.aspx.designer.cs">
       <DependentUpon>InserirUsuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\VerPedidos.aspx.cs">
+      <DependentUpon>VerPedidos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\VerPedidos.aspx.designer.cs">
+      <DependentUpon>VerPedidos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin\ViewExceptions.aspx.cs">
       <DependentUpon>ViewExceptions.aspx</DependentUpon>

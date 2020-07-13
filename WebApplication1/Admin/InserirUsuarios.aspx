@@ -10,27 +10,27 @@
                     <!-- FORMULÁRIO DE CADASTRO -->
                     <div class="col-6 box-padding box-border">
                         <asp:Panel DefaultButton="Salvar" ID="Panel2" runat="server">
-                        <h2>CADASTRO DE USUÁRIOS</h2>
-                        <br />
-                        <asp:Label ID="Mensagem" ForeColor="red" runat="server"></asp:Label>
-                        <br />
-                        <br />
-                        <div style="float: right;">
-                            <asp:Label ID="Codigo" runat="server" Font-Bold="true" Font-Size="30px"></asp:Label>
-                        </div>
-                        <br />
-                        <label>NOME COMPLETO</label>
-                        <asp:TextBox ID="NomeCompleto" MaxLength="255" runat="server"></asp:TextBox>
-                        <label>LOGIN</label>
-                        <asp:TextBox ID="Login" MaxLength="255" runat="server"></asp:TextBox>
-                        <label>SENHA</label>
-                        <asp:TextBox ID="Senha" MaxLength="255" runat="server"></asp:TextBox>
-                        <label>ANOTAÇÕES</label>
-                        <asp:TextBox ID="Anotacoes" MaxLength="255" TextMode="MultiLine" Rows="4" runat="server"></asp:TextBox>
-                        <br />
-                        <br />
-                        <asp:Button ID="Salvar" OnClick="Salvar_Click" runat="server" Text="Salvar" />
-                        <asp:Button ID="Excluir" Visible="false" OnClick="Excluir_Click" runat="server" Text="Excluir" onclientclick="return confirm('Deseja Realmente Excluir o cadastro?');"/>
+                            <h2>CADASTRO DE USUÁRIOS</h2>
+                            <br />
+                            <asp:Label ID="Mensagem" ForeColor="red" runat="server"></asp:Label>
+                            <br />
+                            <br />
+                            <div style="float: right;">
+                                <asp:Label ID="Codigo" runat="server" Font-Bold="true" Font-Size="30px"></asp:Label>
+                            </div>
+                            <br />
+                            <label>NOME COMPLETO</label>
+                            <asp:TextBox ID="NomeCompleto" MaxLength="255" runat="server"></asp:TextBox>
+                            <label>LOGIN</label>
+                            <asp:TextBox ID="Login" MaxLength="255" runat="server"></asp:TextBox>
+                            <label>SENHA</label>
+                            <asp:TextBox ID="Senha" MaxLength="255" runat="server"></asp:TextBox>
+                            <label>ANOTAÇÕES</label>
+                            <asp:TextBox ID="Anotacoes" MaxLength="255" TextMode="MultiLine" Rows="4" runat="server"></asp:TextBox>
+                            <br />
+                            <br />
+                            <asp:Button ID="Salvar" OnClick="Salvar_Click" runat="server" Text="Salvar" />
+                            <asp:Button ID="Excluir" Visible="false" OnClick="Excluir_Click" runat="server" Text="Excluir" OnClientClick="return confirm('Deseja Realmente Excluir o cadastro?');" />
 
                         </asp:Panel>
                         <br />

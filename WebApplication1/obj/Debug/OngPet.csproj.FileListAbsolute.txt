@@ -28,10 +28,7 @@ C:\Users\marce\Desktop\OngPet\WebApplication1\bin\roslyn\vbc.rsp
 C:\Users\marce\Desktop\OngPet\WebApplication1\bin\roslyn\VBCSCompiler.exe
 C:\Users\marce\Desktop\OngPet\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\marce\Desktop\OngPet\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\marce\Desktop\OngPet\WebApplication1\bin\ADSLIB.pdb
-C:\Users\marce\Desktop\OngPet\WebApplication1\bin\ADSLIB.xml
 C:\Users\marce\Desktop\OngPet\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\marce\Desktop\OngPet\WebApplication1\obj\Debug\OngPet.csprojAssemblyReference.cache
 C:\Users\marce\Desktop\OngPet\WebApplication1\obj\Debug\OngPet.csproj.CoreCompileInputs.cache
 C:\Users\marce\Desktop\OngPet\WebApplication1\obj\Debug\OngPet.csproj.CopyComplete
 C:\Users\marce\Desktop\OngPet\WebApplication1\obj\Debug\WebApplication1.dll
@@ -74,3 +71,4 @@ D:\OngPet\WebApplication1\obj\Debug\OngPet.csproj.CoreCompileInputs.cache
 D:\OngPet\WebApplication1\obj\Debug\OngPet.csproj.CopyComplete
 D:\OngPet\WebApplication1\obj\Debug\WebApplication1.dll
 D:\OngPet\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\marce\Desktop\OngPet\WebApplication1\obj\Debug\OngPet.csprojAssemblyReference.cache

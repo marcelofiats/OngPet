@@ -40,6 +40,15 @@ namespace WebApplication1 {
         protected global::System.Web.UI.ScriptManager ScriptManager1;
         
         /// <summary>
+        /// Controle HyperLink1.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HyperLink HyperLink1;
+        
+        /// <summary>
         /// Controle LogoMarca.
         /// </summary>
         /// <remarks>
@@ -101,6 +110,15 @@ namespace WebApplication1 {
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HyperLink ViewExceptions;
+        
+        /// <summary>
+        /// Controle VerPedidos.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HyperLink VerPedidos;
         
         /// <summary>
         /// Controle InserirUsuarios.

@@ -1,21 +1,21 @@
 ﻿* {
-			-webkit-box-sizing: border-box !important; /* Safari/Chrome */
-			-moz-box-sizing: border-box !important; /* Firefox */
-			box-sizing: border-box !important; /* IE8+/ Opera */
+    -webkit-box-sizing: border-box !important; /* Safari/Chrome */
+    -moz-box-sizing: border-box !important; /* Firefox */
+    box-sizing: border-box !important; /* IE8+/ Opera */
 }
 
 h1, h2, h3, h4, h5, h6 {
-			margin: 0;
-			padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-			margin: 0;
-			font-family: Arial, Helvetica, sans-serif;
-			font-size: 14px;
-			text-align: left;
-			line-height: 150%; /* define a altura da linha de texto */
-			color: #333333;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    line-height: 150%; /* define a altura da linha de texto */
+    color: #333333;
 }
 
 /**************************************** 
@@ -23,58 +23,58 @@ body {
 *****************************************/
 /* Linha para criar as colunas */
 .row {
-			display: flex;
-			display: -webkit-flex; /* Safari */
-			flex-wrap: wrap;
-			flex-direction: row;
+    display: flex;
+    display: -webkit-flex; /* Safari */
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .col-12 {
-			width: 100%;
+    width: 100%;
 }
 
 .col-11 {
-			width: 91.66666666%;
+    width: 91.66666666%;
 }
 
 .col-10 {
-			width: 83.3333333%;
+    width: 83.3333333%;
 }
 
 .col-9 {
-			width: 75%;
+    width: 75%;
 }
 
 .col-8 {
-			width: 66.66666667%;
+    width: 66.66666667%;
 }
 
 .col-7 {
-			width: 58.33333333%;
+    width: 58.33333333%;
 }
 
 .col-6 {
-			width: 50%;
+    width: 50%;
 }
 
 .col-5 {
-			width: 41.66666667%;
+    width: 41.66666667%;
 }
 
 .col-4 {
-			width: 33.33333333%;
+    width: 33.33333333%;
 }
 
 .col-3 {
-			width: 25%;
+    width: 25%;
 }
 
 .col-2 {
-			width: 16.66666667%;
+    width: 16.66666667%;
 }
 
 .col-1 {
-		width:8.33333333%;
+    width: 8.33333333%;
 }
 
 /**************************************** 
@@ -83,134 +83,135 @@ body {
 
 /* CABEÇALHO */
 .cabecalho {
-			height: 115px;
-			border-bottom: 1px solid #a1a1a1;
-			position:relative;
+    height: 115px;
+    border-bottom: 1px solid #a1a1a1;
+    position: relative;
 }
 
-.logomarca{
-			width:10px;
-			height:10px;
-            position:absolute;
-			top:0;
-			left:50px;
+.logomarca {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 0;
+    left: 50px;
 }
 
-.menu{
-        height:30px;
-		position:absolute;
-		bottom:4px;
-		right:20px;
+.menu {
+    height: 30px;
+    position: absolute;
+    bottom: 4px;
+    right: 20px;
 }
 
-.menu a{
-			color:#333333;
-			font-size:14px;
-			margin-left:4px;
-			margin-right:4px;
-			text-decoration:none;
-			border-bottom:3px solid transparent;
-}
+    .menu a {
+        color: #333333;
+        font-size: 14px;
+        margin-left: 4px;
+        margin-right: 4px;
+        text-decoration: none;
+        border-bottom: 3px solid transparent;
+    }
 
-.menu a:hover{
-			color:black;
-			border-bottom:3px solid black;
-}
+        .menu a:hover {
+            color: black;
+            border-bottom: 3px solid black;
+        }
 
 /* CONTEÚDO */
 
 /* determina a largura máxima da área para exibir conteúdo */
 .content-wrapper {
-			margin: 0 auto;
-			max-width: 1100px;
-}
-.color{
-    background-color:lightcyan;
+    margin: 0 auto;
+    max-width: 1100px;
 }
 
-.conteudo{
-		 min-height:1200px;
+.color {
+    background-color: lightcyan;
+}
+
+.conteudo {
+    min-height: 1200px;
 }
 
 /* RODAPÉ */
 .rodape {
-			/*border-top: 1px solid #a1a1a1;*/
-			height:200px;
-			background-color:#eeeeee;
-			padding:30px;
+    /*border-top: 1px solid #a1a1a1;*/
+    height: 200px;
+    background-color: #eeeeee;
+    padding: 30px;
 }
 
 /*****************************************/
 /* CLASSES DIVERSAS                      */
 /*****************************************/
 
-.margin-top-60px{
-			margin-top:60px;
+.margin-top-60px {
+    margin-top: 60px;
 }
 
-.margin-top-50{
+.margin-top-50 {
     margin-top: 50px;
 }
 
-.margin-top10{
+.margin-top10 {
     margin-top: 10px;
 }
 
-.padding10{
-   padding: 15px;
+.padding10 {
+    padding: 15px;
 }
 
 .box-padding {
-			padding: 30px;
+    padding: 30px;
 }
 
 .box-border {
-			border: 1px solid #a1a1a1;
-			border-radius:4px;
+    border: 1px solid #a1a1a1;
+    border-radius: 4px;
 }
 
-.border-radius{
+.border-radius {
     border-radius: 15px;
 }
 
 .center {
-			text-align: center;
+    text-align: center;
 }
 
-.fotosliders{
+.fotosliders {
     width: 450px;
     height: 450px;
 }
 
-.foto{
+.foto {
     width: 800px;
     margin-left: 150px;
 }
 
-.text{
-   font-size: 14pt;
+.text {
+    font-size: 14pt;
 }
 
-.mapa{
-    text-align:end;
-    margin-right:10px;
+.mapa {
+    text-align: end;
+    margin-right: 10px;
 }
 
 .zoom {
-    margin-top: 30px;
-    width: 200px;
-    height: 140px;
     transition: .5s;
 }
 
-.zoom:hover{
-    width: 280px;
-    height: 210px;
-    transition-duration: .5s;
+.img {
+    width: 200px;
+    height: 140px;
 }
 
-.titulo{
-    margin: 30px 30px 30px 30px;
+    .zoom:hover {
+      -webkit-transform:scale(1.5);
+    }
+
+.titulo {
+    margin: 30px 30px 50px 30px;
     font-size: 18px;
     color: grey;
 }
@@ -219,45 +220,50 @@ CONTROLES DE FORMULÁRIOS
 ********************************************************************/
 
 label {
-			margin-top: 20px;
-			display: block;
-			max-width: 100%;
-			font-size: 12px;
-			text-transform: uppercase;
+    margin-top: 20px;
+    display: block;
+    max-width: 100%;
+    font-size: 12px;
+    text-transform: uppercase;
 }
 
 input[type="text"],
 input[type="password"],
 textarea,
 select {
-			border: 1px solid #d7d7d7;
-			border-radius: 4px;
-			background: rgba(255, 255, 255, 0.8);
-			color: #555;
-			font-size: 16px;
-			display: block;
-			padding: 10px;
-			resize: none;
-			width: 100%;
+    border: 1px solid #d7d7d7;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.8);
+    color: #555;
+    font-size: 16px;
+    display: block;
+    padding: 10px;
+    resize: none;
+    width: 100%;
 }
 
 input[type="submit"],
 input[type="button"],
 button {
-			border: 1px solid #c0c0c0;
-			border-radius: 4px;
-			color: white;
-			background-color: #405de6;
-			font-size: 16px;
-			padding: 10px 20px;
+    border: 1px solid #c0c0c0;
+    border-radius: 4px;
+    color: white;
+    background-color: #405de6;
+    font-size: 16px;
+    padding: 10px 20px;
 }
 
-			input[type="submit"]:hover,
-			input[type="button"]:hover,
-			button:hover {
-						background-color: #293b90;
-						color: white;
-			}
+    input[type="submit"]:hover,
+    input[type="button"]:hover,
+    button:hover {
+        background-color: #293b90;
+        color: white;
+    }
 
-
-
+#fotos .row {
+    justify-content: center;
+    height:250px;
+}
+figure{
+    margin:-10px 10px 0 10px;
+}
