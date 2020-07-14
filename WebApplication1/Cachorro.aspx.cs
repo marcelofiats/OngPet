@@ -28,6 +28,8 @@ namespace WebApplication1
             string telefone = vTelefone.Text;
             string email = vEmail.Text;
             string animal = vAnimal.Text;
+            string date = DateTime.Today.ToString();
+
 
             if (vNome.Text == "")
             {
@@ -46,13 +48,13 @@ namespace WebApplication1
             }
             else
             {
-                string comando = "INSERT INTO Pedido(Nome,Telefone,Email,Animal)" +
-                    "VALUES('"+nome+"','"+telefone+"','"+email+"','"+animal+ "';";
+                string comando = "INSERT INTO Pedido(Nome,Telefone,Email,Animal,DataPedido)" +
+                    "VALUES('"+nome+"','"+telefone+"','"+email+"','"+animal+"','"+date+"');";
                 AppDatabase.OleDBTransaction db = new AppDatabase.OleDBTransaction();
                 db.ConnectionString = conexao;
                 db.Query(comando);
 
-                mensagem.Text = "Pedido realizado com sucesso";
+                ClientScript.RegisterStartupScript(this.GetType(), "Pedido", "alert('Pedido realizado com sucesso.');", true);
                 vNome.Text = "";
                 vTelefone.Text = "";
                 vEmail.Text = "";

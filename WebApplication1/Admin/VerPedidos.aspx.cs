@@ -47,9 +47,9 @@ namespace WebApplication1.Admin
             }
         }
 
-        private void deletar(string codigo)
+        private void deletar(int codigo)
         {
-            string comando = "DELETE FROM Pedido WHERE Codigo='" + codigo + "';";
+            string comando = "DELETE FROM Pedido WHERE Codigo="+codigo+";";
             AppDatabase.OleDBTransaction db = new AppDatabase.OleDBTransaction();
             db.ConnectionString = conexao;
             db.Query(comando);
@@ -58,16 +58,23 @@ namespace WebApplication1.Admin
         protected void GridView1_RowDeleting(object sender, GridViewDeleteEventArgs e)
         {
             
-            //try
-            //{
-                string id = GridView1.DataKeys[e.RowIndex].Value.ToString();
+           try
+           {
+                
+                var script = "if(confirm(\"Deseja Mesmo exclir o pedido?\")){1} else {0};";
+                int id = int.Parse(GridView1.DataKeys[e.RowIndex].Value.ToString());               
+                ScriptManager.RegisterClientScriptBlock(this, GetType(), "key", script , true);
+                
                 deletar(id);
-           // }
-            //catch
-            //{
-               // Mensagem.Text = "Houve um erro ao deletar.";
-            //}
-            
+                ExibirPedidos();
+                
+           }
+           catch
+           {
+                 Mensagem.Text = "Houve um erro ao deletar.";
+           }
+
         }
+
     }
 }

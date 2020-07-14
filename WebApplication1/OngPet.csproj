@@ -138,6 +138,7 @@
     <Content Include="Images\si5.jpeg" />
     <Content Include="Images\theo.jpg" />
     <Content Include="Images\voluntario.png" />
+    <Content Include="js\confirma.js" />
     <Content Include="js\flexslider.css" />
     <Content Include="js\flexslider.min.js" />
     <Content Include="js\jquery-1.7.2.min.js" />
