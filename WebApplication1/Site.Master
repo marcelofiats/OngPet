@@ -26,14 +26,14 @@
             <div class="cabecalho">
                 <!-- LOGOMARCA -->
                 <div class="logomarca">
-                    <asp:HyperLink ID="HyperLink1" NavigateUrl="~/Default.aspx" runat="server"><asp:Image ID="LogoMarca" ImageUrl="~/Images/logo.jpeg" Width="100px" runat="server"/></asp:HyperLink>
+                    <asp:HyperLink ID="HyperLink1" NavigateUrl="~/Default.aspx" runat="server"><asp:Image ID="LogoMarca" ImageUrl="~/Images/logo.png" Width="209px" runat="server"/></asp:HyperLink>
                 </div>
                 <div style="position: absolute; left: 160px; bottom: 20px;">
                     <asp:Label ID="NomeCompleto" runat="server"></asp:Label>
                 </div>
                 <!--MEN U -->
                 <div class="menu">
-                    <asp:HyperLink ID="HyperLink4" NavigateUrl="~/Cachorro.aspx" runat="server">ANIMAIS</asp:HyperLink>
+                    <asp:HyperLink ID="HyperLink4" NavigateUrl="~/Animais.aspx" runat="server">ANIMAIS</asp:HyperLink>
                     <asp:HyperLink ID="HyperLink6" NavigateUrl="~/Voluntario.aspx" runat="server">VOLUNTARIO</asp:HyperLink>
                     <asp:HyperLink ID="HyperLink2" NavigateUrl="~/Sobre.aspx" runat="server">SOBRE NÓS</asp:HyperLink>
                     <asp:HyperLink ID="HyperLink3" NavigateUrl="~/Contato.aspx" runat="server">FALE CONOSCO</asp:HyperLink>

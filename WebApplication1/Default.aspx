@@ -41,17 +41,17 @@
                     <br />
                     <br />
                     <h1>Nossa Equipe</h1>
-                    <br />
-                    Nossa equipe é formada por volúntarios, nossa missão é fazer recolhimento de animais abandonados,
+                    <p>
+                        Nossa equipe é formada por volúntarios, nossa missão é fazer recolhimento de animais abandonados,
                     oferecer os cuidados necessarios, e de achar um novo lar para os nossos amiguinhos, esse trabalho é feito de forma sem 
                     fins lucrativos, somente com doações e trabalho volúntario, temos mais de 100 volúntarios em diversas regiões,
                     que alem de nos ajudar com os animais, ajudam na divulgação e busca por colaboração.
-                     <br />
-                    <br />
+                    </p>
+
                     <div class="text">
-                        Venha fazer parte dos nossos voluntarios.
+                        Nossa equipe
                         <br />
-                        <a href="Voluntario.aspx">click aqui</a> para saber mais.
+                        <a href="Equipe.aspx">click aqui</a> para saber mais.
                     </div>
                 </div>
             </div>
@@ -66,7 +66,7 @@
                     a fim de nos ajudar com nosso projetos e divulgação de nossa ONG.
                      <br />
                     <br />
-                    <div class="text">Deseja ser um parceiro <a href="Voluntario.aspx">click aqui</a> e saiba mais.</div>
+                    <div class="text">Deseja ser um parceiro <a href="Parceiro.aspx">click aqui</a> e saiba mais.</div>
                 </div>
             </div>
 
@@ -80,7 +80,7 @@
                     caso queira fazer uma doação em prol da ONG, sua doação val muito para nossos amiguinos, seja ela em dinheiro, roupas velhas, cobertores, ração, entre outro toda doação é bem vinda.
                      <br />
                     <br />
-                    <div class="text">Para Fazer uma doação <a href="Voluntario.aspx">click aqui</a> e saiba mais.</div>
+                    <div class="text">Para Fazer uma doação <a href="Doacoes.aspx">click aqui</a> e saiba mais.</div>
                 </div>
             </div>
 

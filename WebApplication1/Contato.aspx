@@ -9,15 +9,16 @@
             <div class="col-6">
                 <h1>Fale Conosco</h1>
                 <h4>Preencha todos os valores</h4>
-                <div class="box-padding">
+                <div class="padding-end">
                     <asp:Label ID="Erro" ForeColor="Red" Font-Size="16px" runat="server"></asp:Label>
-                    <br />
-                    <label>Mensagem</label>
-                    <asp:TextBox ID="Mensagem" TextMode="MultiLine" Rows="6" runat="server"></asp:TextBox>
+                   
                     <label>Seu Nome</label>
                     <asp:TextBox ID="SeuNome" runat="server"></asp:TextBox>
                     <label>Seu e-mail</label>
                     <asp:TextBox ID="SeuEmail" runat="server"></asp:TextBox>
+                    <label>Mensagem</label>
+                    <asp:TextBox ID="Mensagem" TextMode="MultiLine" Rows="6" runat="server"></asp:TextBox>
+                    
                     <br />
                     <br />
                     <asp:Button ID="Enviar" OnClick="Enviar_Click" runat="server" Text="Enviar" />

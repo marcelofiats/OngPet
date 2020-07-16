@@ -21,6 +21,9 @@ body {
     line-height: 150%; /* define a altura da linha de texto */
     color: #333333;
 }
+p{
+    font-size:18px;
+}
 
 /**************************************** 
 			RECURSOS PARA LAYOUT EM COLUNAS 
@@ -168,6 +171,9 @@ body {
 .box-padding {
     padding: 30px;
 }
+.padding-end{
+    padding-right:30px;
+}
 
 .box-border {
     border: 1px solid #a1a1a1;
@@ -191,9 +197,8 @@ body {
     width: 800px;
     margin-left: 150px;
 }
-
-.text {
-    font-size: 14pt;
+.rigth{
+    float:right;
 }
 
 .mapa {
@@ -220,8 +225,15 @@ body {
     color: grey;
 }
 .text{
-    font-size: 14px;
-    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.area-text{
+    padding: 20px;
+    font-size:18px;
+    line-height: 1.3;
+}
+span{
+    font-weight:600;
 }
 /*******************************************************************
 CONTROLES DE FORMULÁRIOS

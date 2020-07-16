@@ -84,20 +84,16 @@
     <Content Include="Admin\VerPedidos.aspx" />
     <Content Include="Admin\ViewExceptions.aspx" />
     <Content Include="App_Data\ADSDB.accdb" />
-    <Content Include="Cachorro.aspx" />
+    <Content Include="Animais.aspx" />
     <Content Include="Contato.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Admin\Exceptions\log.txt" />
-    <Content Include="Gato.aspx" />
+    <Content Include="Doacoes.aspx" />
+    <Content Include="Equipe.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Css\StyleSheet.css" />
     <Content Include="Images\adotar-cachorro-rua-quais-os-cuidados.jpg" />
-    <Content Include="Images\aluno.png" />
-    <Content Include="Images\banner0.png" />
-    <Content Include="Images\banner1.png" />
-    <Content Include="Images\banner2.png" />
-    <Content Include="Images\banner3.png" />
-    <Content Include="Images\banner4.png" />
+    <Content Include="Images\b.jpeg" />
     <Content Include="Images\cachorraXuxa.jpg" />
     <Content Include="Images\cachorro2.jpg" />
     <Content Include="Images\cachorro3.jpg" />
@@ -107,7 +103,6 @@
     <Content Include="Images\cachorroPitico.jpg" />
     <Content Include="Images\colaboracao.png" />
     <Content Include="Images\colaboração.jpg" />
-    <Content Include="Images\Competencias.png" />
     <Content Include="Images\doar.jpg" />
     <Content Include="Images\equipe1.jpg" />
     <Content Include="Images\equipe2.jpg" />
@@ -116,26 +111,14 @@
     <Content Include="Images\gatoFelix.jpg" />
     <Content Include="Images\gatoLaurinha.jpg" />
     <Content Include="Images\GatoSid.jpg" />
-    <Content Include="Images\globo.png" />
     <Content Include="Images\hercules.jpg" />
-    <Content Include="Images\icon.png" />
-    <Content Include="Images\icon1.png" />
-    <Content Include="Images\icon_faleconosco.png" />
-    <Content Include="Images\icon_website.png" />
+    <Content Include="Images\i.jpeg" />
     <Content Include="Images\jandira.jpg" />
     <Content Include="Images\Lilica.jpg" />
-    <Content Include="Images\logo.jpeg" />
-    <Content Include="Images\lupa.png" />
-    <Content Include="Images\marca.png" />
-    <Content Include="Images\marca1.png" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\m.jpeg" />
     <Content Include="Images\nicolau.jpg" />
     <Content Include="Images\palilo.jpg" />
-    <Content Include="Images\programador.png" />
-    <Content Include="Images\si1.png" />
-    <Content Include="Images\si2.jpg" />
-    <Content Include="Images\si3.jpg" />
-    <Content Include="Images\si4.jpg" />
-    <Content Include="Images\si5.jpeg" />
     <Content Include="Images\theo.jpg" />
     <Content Include="Images\voluntario.png" />
     <Content Include="js\confirma.js" />
@@ -144,6 +127,7 @@
     <Content Include="js\jquery-1.7.2.min.js" />
     <Content Include="Login.aspx" />
     <Content Include="Logout.aspx" />
+    <Content Include="Parceiro.aspx" />
     <Content Include="Sobre.aspx" />
     <Content Include="Web.config" />
     <Content Include="Voluntario.aspx" />
@@ -170,12 +154,12 @@
     <Compile Include="Admin\ViewExceptions.aspx.designer.cs">
       <DependentUpon>ViewExceptions.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Cachorro.aspx.cs">
-      <DependentUpon>Cachorro.aspx</DependentUpon>
+    <Compile Include="Animais.aspx.cs">
+      <DependentUpon>Animais.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Cachorro.aspx.designer.cs">
-      <DependentUpon>Cachorro.aspx</DependentUpon>
+    <Compile Include="Animais.aspx.designer.cs">
+      <DependentUpon>Animais.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contato.aspx.cs">
       <DependentUpon>Contato.aspx</DependentUpon>
@@ -191,12 +175,19 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Gato.aspx.cs">
-      <DependentUpon>Gato.aspx</DependentUpon>
+    <Compile Include="Doacoes.aspx.cs">
+      <DependentUpon>Doacoes.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Gato.aspx.designer.cs">
-      <DependentUpon>Gato.aspx</DependentUpon>
+    <Compile Include="Doacoes.aspx.designer.cs">
+      <DependentUpon>Doacoes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Equipe.aspx.cs">
+      <DependentUpon>Equipe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Equipe.aspx.designer.cs">
+      <DependentUpon>Equipe.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -214,6 +205,13 @@
     </Compile>
     <Compile Include="Logout.aspx.designer.cs">
       <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Parceiro.aspx.cs">
+      <DependentUpon>Parceiro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Parceiro.aspx.designer.cs">
+      <DependentUpon>Parceiro.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
@@ -240,6 +238,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Images\shakira.webp" />
+    <Content Include="libman.json" />
     <None Include="packages.config" />
     <Content Include="Site.Master" />
     <None Include="Web.Debug.config">
